@@ -1,0 +1,39 @@
+{
+  "name": "is99",
+  "version": "1.0.0",
+  "description": "A small library to get if a number is 99",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "coverage": "nyc --reporter=text --reporter=lcov npm test",
+    "publish:npm": "npm version patch && npm publish"
+  },
+  "types": "index.d.ts",
+  "keywords": [
+    "is99",
+    "99",
+    "number",
+    "utility",
+    "library",
+    "is",
+    "check",
+    "ninety-nine"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VincenzoManto/is99.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VincenzoManto/is99/issues"
+  },
+  "homepage": "https://github.com/VincenzoManto/is99#readme",
+  "author": "Vincenzo Manto",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "nyc": "^17.1.0",
+    "typescript": "^5.6.2"
+  }
+}
