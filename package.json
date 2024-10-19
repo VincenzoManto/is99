@@ -1,6 +1,6 @@
 {
   "name": "is99",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small library to get if a number is 99",
   "main": "index.js",
   "scripts": {
@@ -29,8 +29,7 @@
   "homepage": "https://github.com/VincenzoManto/is99#readme",
   "author": "Vincenzo Manto",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "^10.7.3",
     "nyc": "^17.1.0",
